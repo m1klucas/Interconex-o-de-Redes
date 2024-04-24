@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swtich</title>
+    <link rel="stylesheet" href="Switch.css">
+</head>
+<body>
+    <h1>Switch (comutador)</h1>
+    <h3>O switch é um equipamento muito semelhante ao hub, mas tem uma
+        grande diferença: os dados vindos do computador de origem somente são
+        repassados ao computador de destino. Isso porque os switchs criam um canal
+        de comunicação exclusiva entre a origem e o destino. Dessa forma, a rede não
+        fica "presa" a um único computador no envio de informações. Isso aumenta o
+        desempenho da rede já que a comunicação está sempre disponível, exceto
+        quando dois ou mais computadores tentam enviar dados simultaneamente à
+        mesma máquina. Essa característica também diminui a ocorrência de erros
+        (colisões de pacotes, por exemplo).
+        Assim como no hub, é possível ter várias portas em um switch e a
+        quantidade varia da mesma forma.
+        O hub está cada vez mais em desuso. Isso porque existe um dispositivo
+        chamado hub-switch* que possui preço parecido com o de um hub
+        convencional. Trata-se de um tipo de switch econômico, geralmente usado para
+        redes com até 24 computadores. Para redes maiores mas que não necessitam
+        4
+        de um roteador, os switchs são mais indicados.
+        * O hub-switch é um equipamento intermediário entre o hub e o switch apena
+        senvia os dados da origem para o destino, fazendo com que o restante da rede
+        fique livre para o tráfego de outras informações. O hub-switch possui algumas
+        funcionalidades do switch, mas não é um componente “inteligente”, como o
+        switch é, ou seja, apenas "direciona" o pacote da origem para o destino, sem
+        ter mais nenhuma funcionalidade em hardware (buffer) e software (algoritmos
+        de redundância) para incrementar essa interligação.
+        O switch (ou comutador) trabalha nas duas primeiras camadas do modelo
+        OSI (Física e Enlace), quer dizer que ele distribui os dados para cada máquina
+        destinatária, enquanto que o hub envia todos os dados para todas as máquinas
+        que respondem. Concebido para trabalhar em redes, com um número de
+        máquinas levemente mais elevado que o hub, ele elimina as colisões e pacotes
+        eventuais (uma colisão aparece quando uma máquina tente de se comunicar
+        com uma segunda quando uma outra já está em comunicação com ela, a
+        primeira tentará novamente mais tarde).
+        Um swtitch (comutador) é uma bridge (ponte) multiportas, o que quer
+        dizer que se trata de um elemento ativo que age no nível 2 do modelo OSI.
+        O comutador analisa os pacotes que chegam às suas portas de entrada e
+        filtra os dados a fim de as comutar unicamente para as portas adequadas (falase de comutação ou redes comutadas), de modo que o comutador permite
+        combinar as propriedades da ponte em matéria de filtragem e do concentrador
+        em matéria de conexão.
+        O comutador utiliza um mecanismo de filtragem e de comutação que
+        consiste em dirigir os fluxos de dados para as máquinas mais adequadas, em
+        função de certos elementos presentes nos pacotes de dados.
+        Há uma categoria de switche, conhecido como comutador de nível 4 (que
+        age a nível da camada transporte do modelo OSI), que inspeciona os endereços
+        de fonte e de destino das mensagens, elabora uma tabela que lhe permite
+        então saber que máquina está ligada a que porta do switch (em geral este
+        processo faz-se por algoritmos de autoaprendizagem, quer dizer
+        5
+        automaticamente, mas o gestor do switch pode proceder a ajustamentos
+        complementares também).
+        Conhecendo a porta do destinatário, o comutador transmitirá a mensagem
+        apenas para a porta adequada, e as outras portas ficam portanto livres para
+        outras transmissões que podem se produzir simultaneamente. Resulta que
+        cada troca pode efectuar-se a débito nominal (maior partilha da banda
+        concorrida), sem colisões, tendo como consequência um aumento muito
+        sensível da banda concorrida da rede (à velocidade nominal igual).
+        Há também outra categoria de switches, comutadores mais evoluídos,
+        conhecidos como comutadores de nível 7 (que corresponde à camada de
+        Aplicação do modelo OSI), que são capazes de reencaminhar os dados em
+        função de dados aplicativos evoluídos contidos nos pacotes de dados, como os
+        cookies no caso do protocolo HTTP, o tipo de arquivos trocados no caso do
+        protocolo FTP e etc. Assim, um comutador de nível 7 pode, por exemplo,
+        permitir o balanceamento da carga, dirigindo os fluxos de dados que entram na
+        empresa para os servidores mais adequados, os que possuam menos carga ou
+        os que respondem o mais rapidamente possível.</h3>
+        <footer><p>Centro Universitario Leonardo da Vinci</p>
+            <p>Aluno: Gabriel Lucas A. Ferreira             Turma: Engenharia de Software</p></footer>
+</body>
+
+</html>
